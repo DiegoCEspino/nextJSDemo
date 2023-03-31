@@ -1,11 +1,11 @@
 // import React from "react"
-export const firstName = "Yoshi";
-export const lastName = "Nagai";
+export const firstName = "Diego";
+export const lastName = "Cuenca Espino";
 export const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
+  { skill: "Java" },
 ];
 
 export const projects = [
@@ -13,14 +13,14 @@ export const projects = [
     name: "P1",
     description:
       "Desc for P1",
-    image: "/headshot.png",
+    image: "/mikey.jpg",
     github: "https://github.com/",
     link: "https://github.com/",
   },
   {
     name: "P2",
     description: "Desc for P2",
-    image: "/headshot.png",
+    image: "/mikey.jpg",
     github: "https://github.com/",
     link: "https://github.com/",
   },
@@ -28,7 +28,7 @@ export const projects = [
     name: "P3",
     description:
       "Desc for P3",
-    image: "/headshot.png",
+    image: "/mikey.jpg",
     github: "https://github.com/",
     link: "https://github.com/",
   },
@@ -42,8 +42,7 @@ export const selfIntroductionHero = (
       <span className="font-semibold text-teal-600">
         Software Engineer{" "}
       </span>
-      based in Vancouver, BC. Working towards creating software that
-      makes life easier and more meaningful.
+      based in Vancouver, BC. Working towards world domination.
     </p>
   </>
 );
